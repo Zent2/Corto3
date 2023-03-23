@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+int main() {
+    int i,a, serieF, x=0, y=1;
+    printf("Ingrese la cantidad de series de fibonacci:\n");
+    scanf("%d",&a);
+    for (i = 1; i <= a; i++) {
+        serieF=x+y;
+        x=y;
+        y=serieF;
+        printf("%d ", serieF);
+}
+return 0;
+}
