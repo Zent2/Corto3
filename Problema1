@@ -1,0 +1,11 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int a=21760;
+    char b[]="Christian Campos";
+    printf("Mi carnet es %d y mi nombre es %s\n", a, b);
+
+    return 0;
+}
