@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+int main() {
+    int i,resultado[10] = {6, 2, 14, 84, 5, 89, 72, 15, 19, 8}, valores[10] = {6, 2, 14, 84, 5, 89, 72, 15, 19, 8};
+    for (i = 0; i < 10; i++) {
+        printf("Ingrese el valor del puntero %d:\n", i);
+        scanf("%d", &valores[i]);
+        resultado[i]=valores[i]*2;
+        
+}
+for (i = 0; i < 10; i++) {
+        printf("El valor en la posicion del puntero %d es %d y el resultado es %d\n", i,valores[i],resultado[i]);
+        
+        
+}
+return 0;
+}
