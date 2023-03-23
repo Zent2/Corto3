@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b, suma;
+    float gradosC, gradosF;
+    printf("Ingrese 2 numeros enteros separados por un espacio:\n");
+    scanf("%d %d",&a, &b);
+    suma=a+b;
+    printf("La suma de los 2 numeros ingresados es: %d\n",suma);
+    
+    printf ("Ahora ingrese la temperatura en grados centigrados:\n");
+    scanf("%f", &gradosC);
+    gradosF=(9*gradosC/5)+32;
+    printf ("La temperatura en grados Fahrenheit es:%f\n",gradosF);
+    return 0;
+}
