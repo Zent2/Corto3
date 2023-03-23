@@ -1,0 +1,20 @@
+#include <stdio.h> 
+#include "add.h"
+#include "sub.h"
+#include "divi.h"
+#include "mult.h"
+
+int main()
+{
+    float a, b, s, r, d, m, pi;
+    printf("Ingrese 2 numeros separados por un espacio:\n");
+    scanf("%f %f",&a, &b);
+    s = add (a,b);
+    r = sub (a,b);
+    d = divi (a,b);
+    m = mult (a,b);
+    pi=3.1415926535897932;
+    printf ("La suma es: %f\n La resta es: %f\n La division es: %f\n La multiplicacion es: %f\n", s, r, d, m);
+    printf ("El valor de pi es: %5f\n", pi);
+return 0;
+}
